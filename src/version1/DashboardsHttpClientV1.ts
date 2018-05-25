@@ -11,7 +11,7 @@ import { IDashboardsClientV1 } from './IDashboardsClientV1';
 export class DashboardsHttpClientV1 extends CommandableHttpClient implements IDashboardsClientV1 {
 
     constructor(config?: any) {
-        super('dashboards');
+        super('v1/dashboards');
 
         if (config != null)
             this.configure(ConfigParams.fromValue(config));
