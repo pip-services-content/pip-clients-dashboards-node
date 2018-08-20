@@ -1,5 +1,5 @@
 import { Descriptor } from 'pip-services-commons-node';
-import { Factory } from 'pip-services-commons-node';
+import { Factory } from 'pip-services-components-node';
 
 import { DashboardsNullClientV1 } from '../version1/DashboardsNullClientV1';
 import { DashboardsDirectClientV1 } from '../version1/DashboardsDirectClientV1';

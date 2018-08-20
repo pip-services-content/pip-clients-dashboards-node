@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const pip_services_commons_node_1 = require("pip-services-commons-node");
-const pip_services_commons_node_2 = require("pip-services-commons-node");
+const pip_services_components_node_1 = require("pip-services-components-node");
 const DashboardsNullClientV1_1 = require("../version1/DashboardsNullClientV1");
 const DashboardsDirectClientV1_1 = require("../version1/DashboardsDirectClientV1");
 const DashboardsHttpClientV1_1 = require("../version1/DashboardsHttpClientV1");
 const DashboardsLambdaClientV1_1 = require("../version1/DashboardsLambdaClientV1");
 const DashboardsSenecaClientV1_1 = require("../version1/DashboardsSenecaClientV1");
-class DashboardsClientFactory extends pip_services_commons_node_2.Factory {
+class DashboardsClientFactory extends pip_services_components_node_1.Factory {
     constructor() {
         super();
         this.registerAsType(DashboardsClientFactory.NullClientV1Descriptor, DashboardsNullClientV1_1.DashboardsNullClientV1);

@@ -1,7 +1,7 @@
 import { FilterParams } from 'pip-services-commons-node';
 import { PagingParams } from 'pip-services-commons-node';
 import { DataPage } from 'pip-services-commons-node';
-import { CommandableHttpClient } from 'pip-services-net-node';
+import { CommandableHttpClient } from 'pip-services-rpc-node';
 import { DashboardV1 } from './DashboardV1';
 import { IDashboardsClientV1 } from './IDashboardsClientV1';
 export declare class DashboardsHttpClientV1 extends CommandableHttpClient implements IDashboardsClientV1 {
