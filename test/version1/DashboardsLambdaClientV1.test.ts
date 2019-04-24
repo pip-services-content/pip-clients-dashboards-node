@@ -1,6 +1,6 @@
 let process = require('process');
 
-import { ConfigParams } from 'pip-services-commons-node';
+import { ConfigParams } from 'pip-services3-commons-node';
 
 import { DashboardsClientFixtureV1 } from './DashboardsClientFixtureV1';
 import { DashboardsLambdaClientV1 } from '../../src/version1/DashboardsLambdaClientV1';

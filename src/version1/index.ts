@@ -6,5 +6,4 @@ export { IDashboardsClientV1 } from './IDashboardsClientV1';
 export { DashboardsNullClientV1 } from './DashboardsNullClientV1';
 export { DashboardsHttpClientV1 } from './DashboardsHttpClientV1';
 export { DashboardsLambdaClientV1 } from './DashboardsLambdaClientV1';
-export { DashboardsSenecaClientV1 } from './DashboardsSenecaClientV1';
 export { DashboardsDirectClientV1 } from './DashboardsDirectClientV1';

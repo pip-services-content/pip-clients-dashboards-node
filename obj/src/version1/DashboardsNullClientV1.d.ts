@@ -1,6 +1,6 @@
-import { FilterParams } from 'pip-services-commons-node';
-import { PagingParams } from 'pip-services-commons-node';
-import { DataPage } from 'pip-services-commons-node';
+import { FilterParams } from 'pip-services3-commons-node';
+import { PagingParams } from 'pip-services3-commons-node';
+import { DataPage } from 'pip-services3-commons-node';
 import { DashboardV1 } from './DashboardV1';
 import { IDashboardsClientV1 } from './IDashboardsClientV1';
 export declare class DashboardsNullClientV1 implements IDashboardsClientV1 {

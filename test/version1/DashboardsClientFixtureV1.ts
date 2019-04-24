@@ -2,8 +2,8 @@ let _ = require('lodash');
 let async = require('async');
 let assert = require('chai').assert;
 
-import { FilterParams } from 'pip-services-commons-node';
-import { PagingParams } from 'pip-services-commons-node';
+import { FilterParams } from 'pip-services3-commons-node';
+import { PagingParams } from 'pip-services3-commons-node';
 
 import { IDashboardsClientV1 } from '../../src/version1/IDashboardsClientV1';
 import { TileGroupV1 } from '../../src/version1/TileGroupV1';

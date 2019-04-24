@@ -1,15 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const pip_services_commons_node_1 = require("pip-services-commons-node");
-const pip_services_commons_node_2 = require("pip-services-commons-node");
-const pip_services_rpc_node_1 = require("pip-services-rpc-node");
+const pip_services3_commons_node_1 = require("pip-services3-commons-node");
+const pip_services3_commons_node_2 = require("pip-services3-commons-node");
+const pip_services3_rpc_node_1 = require("pip-services3-rpc-node");
 //import { IDashboardsController } from 'pip-services-dashboards-node';
-class DashboardsDirectClientV1 extends pip_services_rpc_node_1.DirectClient {
+class DashboardsDirectClientV1 extends pip_services3_rpc_node_1.DirectClient {
     constructor(config) {
         super();
-        this._dependencyResolver.put('controller', new pip_services_commons_node_2.Descriptor("pip-services-dashboards", "controller", "*", "*", "*"));
+        this._dependencyResolver.put('controller', new pip_services3_commons_node_2.Descriptor("pip-services-dashboards", "controller", "*", "*", "*"));
         if (config != null)
-            this.configure(pip_services_commons_node_1.ConfigParams.fromValue(config));
+            this.configure(pip_services3_commons_node_1.ConfigParams.fromValue(config));
     }
     getDashboards(correlationId, filter, paging, callback) {
         let timing = this.instrument(correlationId, 'dashboards.get_dashboards');
