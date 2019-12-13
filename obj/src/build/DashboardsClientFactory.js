@@ -15,10 +15,10 @@ class DashboardsClientFactory extends pip_services3_components_node_1.Factory {
         this.registerAsType(DashboardsClientFactory.LambdaClientV1Descriptor, DashboardsLambdaClientV1_1.DashboardsLambdaClientV1);
     }
 }
+exports.DashboardsClientFactory = DashboardsClientFactory;
 DashboardsClientFactory.Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-dashboards', 'factory', 'default', 'default', '1.0');
 DashboardsClientFactory.NullClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-dashboards', 'client', 'null', 'default', '1.0');
 DashboardsClientFactory.DirectClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-dashboards', 'client', 'direct', 'default', '1.0');
 DashboardsClientFactory.HttpClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-dashboards', 'client', 'http', 'default', '1.0');
 DashboardsClientFactory.LambdaClientV1Descriptor = new pip_services3_commons_node_1.Descriptor('pip-services-dashboards', 'client', 'lambda', 'default', '1.0');
-exports.DashboardsClientFactory = DashboardsClientFactory;
 //# sourceMappingURL=DashboardsClientFactory.js.map
